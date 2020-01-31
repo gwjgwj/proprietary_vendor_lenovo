@@ -16,6 +16,7 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/lenovo/x103f/overlay
 
 PRODUCT_PACKAGES += \
-    TimeService
+    TimeService \
+    qcrilmsgtunnel
 
 $(call inherit-product, vendor/lenovo/x103f/x103f-vendor-blobs.mk)

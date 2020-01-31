@@ -18,4 +18,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/propri
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/proprietary/usr,system/usr)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/proprietary/framework,system/framework)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/x103f/proprietary/vendor,system/vendor)
