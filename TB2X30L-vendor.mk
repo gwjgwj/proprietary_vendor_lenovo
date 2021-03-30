@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS += vendor/lenovo/TB2-X30L/overlay
+DEVICE_PACKAGE_OVERLAYS += vendor/lenovo/TB2X30L/overlay
 
 PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel
 
-$(call inherit-product, vendor/lenovo/TB2-X30L/TB2-X30L-vendor-blobs.mk)
+$(call inherit-product, vendor/lenovo/TB2X30L/TB2X30L-vendor-blobs.mk)
