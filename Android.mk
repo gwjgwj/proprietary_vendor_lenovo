@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter TB2-X30L,$(TARGET_DEVICE)),)
+ifneq ($(filter TB2X30L,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
